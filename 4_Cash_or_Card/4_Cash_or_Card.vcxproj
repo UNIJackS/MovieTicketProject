@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f370d0ac-c994-4749-b43f-808a19488b79}</ProjectGuid>
-    <RootNamespace>My1StringCheckerv1</RootNamespace>
+    <ProjectGuid>{6452c5fe-9fff-4e30-af32-d5abeb6f2a33}</ProjectGuid>
+    <RootNamespace>My4CashorCard</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>1-String_Checker</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,9 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1-String_Checker v1.cpp" />
-    <ClCompile Include="1-String_Checker v2.cpp" />
-    <ClCompile Include="1-String_Checker v3.cpp" />
+    <ClCompile Include="4_Cash_or_Card v1.cpp" />
+    <ClCompile Include="4_Cash_or_Card v2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

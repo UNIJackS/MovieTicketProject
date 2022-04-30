@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f370d0ac-c994-4749-b43f-808a19488b79}</ProjectGuid>
-    <RootNamespace>My1StringCheckerv1</RootNamespace>
+    <ProjectGuid>{b81792f7-7c5c-414c-882a-69d83e1cb25d}</ProjectGuid>
+    <RootNamespace>My6CSVfilemaker</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>1-String_Checker</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,9 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1-String_Checker v1.cpp" />
-    <ClCompile Include="1-String_Checker v2.cpp" />
-    <ClCompile Include="1-String_Checker v3.cpp" />
+    <ClCompile Include="6-CSV_file_maker.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

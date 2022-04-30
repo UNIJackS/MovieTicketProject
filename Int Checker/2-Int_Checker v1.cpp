@@ -26,7 +26,7 @@ int int_checker(string question,int min) {
 				
 			}
 			
-			cout << "Please enter a whole number that is above  \n  :";
+			cout << "Please enter a whole number that is above " << min << "\n  :";
 		}
 		catch (const std::exception&)
 		{

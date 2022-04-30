@@ -24,6 +24,7 @@
     <ProjectGuid>{de796a3a-513a-427c-9855-a2a7d6ac1dbb}</ProjectGuid>
     <RootNamespace>IntChecker</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>2 -Int_Checker</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,7 +140,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Int Checker.cpp" />
+    <ClCompile Include="2-Int_Checker v1.cpp" />
+    <ClCompile Include="2-Int_Checker v2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

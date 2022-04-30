@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f370d0ac-c994-4749-b43f-808a19488b79}</ProjectGuid>
-    <RootNamespace>My1StringCheckerv1</RootNamespace>
+    <ProjectGuid>{07308be4-03a1-4929-a025-2ed19cc64b2c}</ProjectGuid>
+    <RootNamespace>YesNoChecker</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>1-String_Checker</ProjectName>
+    <ProjectName>6-Yes_No_Checker</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,9 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1-String_Checker v1.cpp" />
-    <ClCompile Include="1-String_Checker v2.cpp" />
-    <ClCompile Include="1-String_Checker v3.cpp" />
+    <ClCompile Include="Yes_No_Checker.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,9 +1,7 @@
-
 #include <iostream>
 #include <regex>
 #include <string>
-#include <algorithm>
-#include <vector>
+
 
 
 using namespace::std;
@@ -12,7 +10,7 @@ int main()
 {
 	string user_input;
 	regex range0_9 ("[0-9]");
-	string snacks[] = { "popcorn","drink","soda"};
+	string snacks[] = { "Popcorn","M & M's","Pita Chips","Orange Juice","Water"};
 	smatch regex_results;
 
 	int num_of_snacks;
@@ -29,21 +27,13 @@ int main()
 	{
 		num_of_snacks = 1;
 	}
-	cout << num_of_snacks;
-	
-	for (int i = 0; i < sizeof(snacks); i += 1) {
-		if (user_input.find(snacks[i]) != string::npos){
+	cout << "num of snacks :" << num_of_snacks << endl;;
+	cout << "size of snacks :" << sizeof(snacks) / sizeof(snacks[0]) << endl;
+	for (int i = 0; i < sizeof(snacks) / sizeof(snacks[0]); i += 1) {
+		if (user_input.find(snacks[i]) != std::string::npos) {
+			std::cout << "found!" << '\n';
 			snack_type = i;
 		}
 	}
 	cout << "snack type :" << snacks[snack_type];
-
-
-
-
-
-
-	
-	
-
 }

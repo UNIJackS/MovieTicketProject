@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-Int_Checker v1.cpp">
+    <ClCompile Include="3-Snack_Extractor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="2-Int_Checker v2.cpp">
+    <ClCompile Include="3-Snack_Extractorv2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3-Snack_Extractorv3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

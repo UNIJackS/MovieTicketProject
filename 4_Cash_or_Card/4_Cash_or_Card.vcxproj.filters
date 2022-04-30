@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-Int_Checker v1.cpp">
+    <ClCompile Include="4_Cash_or_Card v1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="2-Int_Checker v2.cpp">
+    <ClCompile Include="4_Cash_or_Card v2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

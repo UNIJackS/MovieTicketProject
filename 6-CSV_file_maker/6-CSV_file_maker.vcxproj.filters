@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-Int_Checker v1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="2-Int_Checker v2.cpp">
+    <ClCompile Include="6-CSV_file_maker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
